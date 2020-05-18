@@ -1,0 +1,27 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StyleExtensionSample">
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Dark">
+            <SolidColorBrush x:Key="ButtonBackground" Color="#4267b2" />
+            <SolidColorBrush x:Key="ButtonForeground" Color="White" />
+            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#29487d" />
+            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="#c1d5fe" />
+            <SolidColorBrush x:Key="ButtonBorderBrushPointerOver" Color="#c1d5fe" />
+            <SolidColorBrush x:Key="ButtonBorderBrushPressed" Color="#c1d5fe" />
+            <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="#1a2947" />
+            <SolidColorBrush x:Key="ButtonForegroundPressed" Color="White" />
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="Light">
+            <SolidColorBrush x:Key="ButtonBackground" Color="#9ebcf9" />
+            <SolidColorBrush x:Key="ButtonForeground" Color="#1a2947" />
+            <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="#29487d" />
+            <SolidColorBrush x:Key="ButtonForegroundPressed" Color="#c1d5fe" />
+            <SolidColorBrush x:Key="ButtonBorderBrushPressed" Color="#c1d5fe" />
+            <SolidColorBrush x:Key="ButtonBorderBrushPointerOver" Color="#c1d5fe" />
+            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#1a2947" />
+            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="White" />
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+</ResourceDictionary>
