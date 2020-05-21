@@ -234,7 +234,7 @@
                 <Button
                     Margin="0,12,0,0"
                     xamlPlus:Style.ExceptHighContrast="{StaticResource InstaButtonStyle}"
-                    Content="Test" />
+                    Content="Using XamlPlus.Style.ExceptHighContrast" />
             </StackPanel>
         </StackPanel>
     </ScrollViewer>
