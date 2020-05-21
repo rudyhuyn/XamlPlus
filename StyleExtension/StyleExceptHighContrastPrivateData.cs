@@ -2,7 +2,7 @@
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 
-namespace StyleExtension
+namespace XamlPlus
 {
     public sealed class ExceptHighContrastPrivateData : IDisposable
     {

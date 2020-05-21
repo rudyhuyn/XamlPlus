@@ -1,6 +1,6 @@
 ﻿using Windows.UI.Xaml;
 
-namespace StyleExtension
+namespace XamlPlus
 {
     internal static class ResourceDictionaryCloner
     {

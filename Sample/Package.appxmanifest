@@ -24,15 +24,15 @@
   </Dependencies>
 
   <Resources>
-    <Style Language="x-generate"/>
+    <Resource Language="x-generate"/>
   </Resources>
 
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="StyleExtensionSample.App">
+      EntryPoint="XamlPlusSample.App">
       <uap:VisualElements
-        DisplayName="StyleExtension Sample app"
+        DisplayName="XamlPlus Sample app"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="ResourceOverrider"

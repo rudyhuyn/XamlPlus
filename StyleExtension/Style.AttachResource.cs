@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using Windows.UI.Xaml;
 
-namespace StyleExtension
+namespace XamlPlus
 {
     public static partial class Style
     {

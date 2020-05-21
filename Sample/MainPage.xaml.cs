@@ -1,7 +1,7 @@
 ﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace StyleExtensionSample
+namespace XamlPlusSample
 {
     public sealed partial class MainPage : Page
     {
@@ -15,7 +15,7 @@ namespace StyleExtensionSample
             var button = (Button)sender;
             var nightStyle = Resources["FbButtonStyle"] as Style;
             var instaStyle = Resources["InstaButtonStyle"] as Style;
-            var accentStyle = Resources["TransparentAccentColorButtonStyle"] as Style;
+            var accentStyle = Resources["AccentColorButtonStyle"] as Style;
             if (button.Style == nightStyle)
             {
                 button.Style = instaStyle;

@@ -7,8 +7,8 @@
     <ProjectGuid>{DADE383F-2992-4D45-8EF1-ABB747049434}</ProjectGuid>
     <OutputType>winmdobj</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StyleExtension</RootNamespace>
-    <AssemblyName>StyleExtension</AssemblyName>
+    <RootNamespace>XamlPlus</RootNamespace>
+    <AssemblyName>XamlPlus</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.18362.0</TargetPlatformVersion>

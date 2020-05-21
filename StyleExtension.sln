@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{0F10F408-CDFD-46CC-983E-BC53E585B1F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleExtension", "StyleExtension\StyleExtension.csproj", "{DADE383F-2992-4D45-8EF1-ABB747049434}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlPlus", "StyleExtension\XamlPlus.csproj", "{DADE383F-2992-4D45-8EF1-ABB747049434}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

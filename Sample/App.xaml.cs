@@ -5,7 +5,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-namespace StyleExtensionSample
+namespace XamlPlusSample
 {
     sealed partial class App : Application
     {
