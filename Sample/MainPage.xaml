@@ -29,7 +29,7 @@
             <Setter Property="xamlPlus:Style.Resources">
                 <Setter.Value>
                     <ResourceDictionary>
-                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="{StaticResource SystemAccentColor}" />
+                        <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="{StaticResource SystemColorBackgroundColor}" />
                         <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="White" />
                         <SolidColorBrush x:Key="ButtonBorderBrushPointerOver" Color="{StaticResource SystemAccentColor}" />
                         <SolidColorBrush x:Key="ButtonBorderBrushPressed" Color="{StaticResource SystemAccentColor}" />
@@ -153,6 +153,25 @@
     <ScrollViewer>
         <StackPanel Margin="12">
             <StackPanel Style="{StaticResource GroupStackPanelStyle}">
+
+
+                <Button Content="heelo" >
+                    <Button.Resources>
+                        <ResourceDictionary>
+                            <ResourceDictionary.ThemeDictionaries>
+                                <ResourceDictionary x:Key="HighContrast">
+                                    <SolidColorBrush x:Key="ButtonBackground" Color="Green" />
+                                </ResourceDictionary>
+                                <ResourceDictionary x:Key="Light"/>
+                                <ResourceDictionary x:Key="Dark"/>
+                                <ResourceDictionary x:Key="Default">
+                                    <SolidColorBrush x:Key="ButtonBackground" Color="Red" />
+                                </ResourceDictionary>
+                            </ResourceDictionary.ThemeDictionaries>
+                        </ResourceDictionary>
+                    </Button.Resources>
+                </Button>
+
                 <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Extend style with local ResourceDictionary" />
                 <Button
                     Margin="0,10"

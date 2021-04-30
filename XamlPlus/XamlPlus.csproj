@@ -121,11 +121,12 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="StyleExceptHighContrastPrivateData.cs" />
+    <Compile Include="StyleExtension\StyleExceptHighContrastPrivateData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Style.AttachResource.cs" />
-    <Compile Include="ResourceDictionaryCloner.cs" />
-    <Compile Include="Style.StyleExceptHighContrast.cs" />
+    <Compile Include="StyleExtension\Style.AttachResource.cs" />
+    <Compile Include="StyleExtension\ResourceDictionaryCloner.cs" />
+    <Compile Include="StyleExtension\Style.StyleExceptHighContrast.cs" />
+    <Compile Include="ThemeAwareBitmap\ThemeAwareBitmapSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">

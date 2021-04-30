@@ -159,7 +159,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StyleExtension\XamlPlus.csproj">
+    <ProjectReference Include="..\XamlPlus\XamlPlus.csproj">
       <Project>{dade383f-2992-4d45-8ef1-abb747049434}</Project>
       <Name>XamlPlus</Name>
     </ProjectReference>
